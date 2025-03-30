@@ -10,5 +10,41 @@
         <h1>¡CONTACTANOS!</h1>
     </header>
     
+    <label><b>REGISTRO</b></label><br><br>
+    <form action="#" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required><br><br>
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required><br><br>
+    <label for="direccion"> Dirección:</label>
+    <input type="text" id="direccion" name="direccion" required><br><br>
+    <label>Sexo:</label><br>
+    <input type="radio" id="masculino" name="sexo" value="masculino" required>
+    <label for="masculino">Masculino</label><br>
+    <input type="radio" id="femenino" name="sexo" value="femenino" required>
+    <label for="femenino">Femenino</label><br>
+    <input type="radio" id="otro" name="sexo" value="otro" required>
+    <label for="otro">Otro</label><br><br>
+    <label for="turno">Turno:</label>
+    <select id="turno">
+        <option value="" disabled selected>Seleccione un turno</option>
+        <option value="mañana">Mañana</option>
+        <option value="tarde">Tarde</option>
+        <option value="noche">Noche</option>
+    </select>
+    <br><br>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+    <input type="submit" value="Enviar">
+    </form>
+
+    <footer>
+        <p>Copyright 2025 - Programacion Visual</p>
+    </footer>
+    
 </body>
 </html>
